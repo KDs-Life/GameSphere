@@ -1,0 +1,55 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url("https://i.postimg.cc/ZYxXvCzN/vecteezy-lofi-art-style-8k-image-landscape-generative-ai-22508213-654.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fffdfd;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Über Uns Section */
+.about-us-section {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Bilderslider Section */
+.slider-section {
+  padding: 50px 0;
+}
+
+/* Unser Team Section */
+.our-team-section {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rounded-image {
+  border-radius: 50%;
+  max-width: 150px;
+  margin-bottom: 10px;
+}
