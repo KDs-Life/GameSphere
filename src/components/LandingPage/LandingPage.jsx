@@ -4,52 +4,63 @@ import "./LandingPage.css";
 function LandingPage() {
   return (
     <>
-    <div className="landing-page">
-      <div className="hero-section parallax">
-        <div className="hero-content">
-          <h1>Welcome to Our Gaming Blog</h1>
-          <p>Explore the world of gaming with us.</p>
-        </div>
-      </div>
-      <div className="about-us-section">
-        <div className="container">
-          <h2>About Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
-            dui ac lacus consequat interdum sit amet et velit.
-          </p>
-        </div>
-      </div>
-      <div className="our-team-section">
-        <div className="container">
-          <h2>Our Team</h2>
-          <div className="team-members">
-            <div className="team-member">
-              <img
-                src="https://i.pinimg.com/originals/f8/f1/db/f8f1db037de9b665fb966422fc6a446c.jpg"
-                alt="Team Member 1"
-                className="rounded-image"
-              />
-              <div className="member-info">
-                <p>Khalid Mohamad</p>
-                <p>WebDev</p>
-              </div>
-            </div>
-            {/* <div className="team-member">
-              <img
-                src="https://pbs.twimg.com/media/FT11YUaUAAAj5Yy.jpg"
-                alt="Team Member 2"
-                className="rounded-image"
-              />
-              <div className="member-info">
-                <p>Son Goku</p>
-                <p>WebDev</p>
-              </div>
-            </div> */}
+      <section class="wrapper">
+        <div className="big-child">
+          <div className="context">
+            <h1 className="studio">Indie, Retro, tripple A etc.</h1>
+            <p>
+              We talk about all the games and the newest trends in the gaming from the indie to the tripple A games.
+            </p>
+            <button className="bts" type="button">
+              Learn more
+            </button>
           </div>
         </div>
-      </div>
-    </div>
+        <div className="small-child">
+          <img
+            src="https://wallpapers.com/images/featured/8-bit-japan-x33n0xe5x0e00t9w.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+      <section className="top-mid">
+        <div className="small-child">
+          <img
+            src="https://i.ytimg.com/vi/fMJcgiyFOps/maxresdefault.jpg"
+            alt=""
+          />
+        </div>
+        <div className="big-child">
+          <div className="context">
+            <h1>We love games</h1>
+            <p className="details-text">
+              We are a team of passionate gamers who love to create games and we are here to help you create your own gameblog.
+            </p>
+            <button className="bts button-text" type="button">
+              explore
+            </button>
+          </div>
+        </div>
+      </section>
+      <section className="bottom-mid">
+        <div className="big-child">
+          <div className="context">
+            <h1>Elevate your product to the next level.</h1>
+            <p className="details-text">
+       Lets talk about the newest trends in the gaming industry and how we can help you create your own game community.
+            </p>
+            <button className="bts button-text" type="button button-text">
+              about
+            </button>
+          </div>
+        </div>
+        <div className="small-child">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59d7aa7f-55b5-4600-a6fd-13f16a50da45/dfwdj88-4b096f99-4945-46cf-b1ea-8f73dbabf841.png/v1/fill/w_1095,h_730,q_70,strp/lofi_girl_by_neonoverdrive_dfwdj88-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6IlwvZlwvNTlkN2FhN2YtNTViNS00NjAwLWE2ZmQtMTNmMTZhNTBkYTQ1XC9kZndkajg4LTRiMDk2Zjk5LTQ5NDUtNDZjZi1iMWVhLThmNzNkYmFiZjg0MS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.7MEd3PZMr1EDILtzkbWfU7gLbYR_nT7RAgOmjk5niIs"
+            alt=""
+          />
+        </div>
+      </section>
     </>
   );
 }
