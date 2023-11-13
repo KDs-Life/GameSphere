@@ -1,12 +1,12 @@
-.intro {
+.wrapper {
   display: flex;
   height: 400px;
   color: #ffffff;
 }
-.intro p {
+.wrapper p {
   margin-bottom: 15px;
 }
-.intro img {
+ img {
   height: 400px;
 }
 .big-child {
@@ -29,19 +29,19 @@
 .bottom-mid img {
   height: 350px;
 }
-.intro .big-child {
+.wrapper .big-child {
   background-color: #394043;
 }
 .bottom-mid .big-child {
   background-color: #f2f2f2;
 }
-.intro .big-child p {
+.wrapper .big-child p {
   font-size: 0.7em;
 }
 .context {
   width: 400px;
 }
-.butts {
+.bts {
   border: 2px solid #a1d8c8;
   background-color: inherit;
   width: 100px;
@@ -57,10 +57,8 @@
 .button-text {
   color: #777777;
 }
-footer {
-  height: 250px;
-  background-color: #394043;
-  padding-top: 10px;
+.button-text:hover {
+  color: #a1d8c8;
 }
 section {
   border: 0.2px solid #979797;
@@ -76,14 +74,7 @@ section {
   padding: 10px;
   font-weight: lighter;
 }
-ul {
-  padding: 0px;
-  margin-top: 50px;
-}
-ul li {
-  display: inline-block;
-  padding: 10px;
-}
+
 .studio {
   font-size: 2.3em;
   margin-bottom: 20px;
