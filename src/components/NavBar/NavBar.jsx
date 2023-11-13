@@ -5,7 +5,7 @@ import './NavBar.css';
 function NavBar() {
   return (
     <div className="navbar">
-      <div className="logo">Logo</div>
+      <div className="logo"></div>
       <div className="spacer"></div>
       <div className="nav-links-wrapper">
         <a href="#" className="nav-link">Log-in</a>
