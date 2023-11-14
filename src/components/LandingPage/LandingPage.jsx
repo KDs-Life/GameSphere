@@ -9,9 +9,10 @@ function LandingPage() {
           <div className="context">
             <h1 className="studio">Indie, Retro, tripple A etc.</h1>
             <p>
-              We talk about all the games and the newest trends in the gaming from the indie to the tripple A games.
+              We talk about all the games and the newest trends in the gaming
+              from the indie to the tripple A games.
             </p>
-            <button className="bts" type="button">
+            <button className="bts button-text" type="button">
               Learn more
             </button>
           </div>
@@ -34,7 +35,8 @@ function LandingPage() {
           <div className="context">
             <h1>We love games</h1>
             <p className="details-text">
-              We are a team of passionate gamers who love to create games and we are here to help you create your own gameblog.
+              We are a team of passionate gamers who love to create games and we
+              are here to help you create your own gameblog.
             </p>
             <button className="bts button-text" type="button">
               explore
@@ -47,7 +49,8 @@ function LandingPage() {
           <div className="context">
             <h1>Elevate your product to the next level.</h1>
             <p className="details-text">
-       Lets talk about the newest trends in the gaming industry and how we can help you create your own game community.
+              Lets talk about the newest trends in the gaming industry and how
+              we can help you create your own game community.
             </p>
             <button className="bts button-text" type="button button-text">
               about

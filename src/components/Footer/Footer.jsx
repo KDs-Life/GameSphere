@@ -1,11 +1,14 @@
-import React from 'react'
+// Footer.jsx
 
-function Footer() {
+import React from 'react';
+import './Footer.css';
+
+const Footer = () => {
   return (
-    <dv>
-        Footer
-    </dv>
-  )
-}
+    <footer className="footer-container">
+      <p>&copy; 2023 Your Company</p>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
