@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import LogIn from "./components/LogIn/LogIn";
 import Blog from "./components/Blog/Blog";
@@ -12,13 +12,13 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <Switch>
+      <Routes>
         <Route path="/" exact component={LandingPage} />
         <Route path="/Login" component={LogIn} />
         <Route path="/blog" component={Blog} />
         <Route path="/chat" component={Chat} />
         <Route path="/contact" component={Contact} />
-      </Switch>
+      </Routes>
       <Footer />
     </BrowserRouter>
   );
