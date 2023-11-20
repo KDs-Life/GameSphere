@@ -136,3 +136,32 @@ section {
   font-size: 2.3em;
   margin-bottom: 20px;
 }
+
+/* Media Query für kleinere Bildschirme (Smartphones) */
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .big-child,
+  .small-child {
+    width: 100%;
+  }
+
+  .top-mid,
+  .bottom-mid {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .top-mid img,
+  .bottom-mid img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .context {
+    width: 100%;
+  }
+}

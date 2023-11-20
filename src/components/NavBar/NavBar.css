@@ -1,7 +1,7 @@
 /* NavBar.css */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #646464;
   padding: 10px 20px;
@@ -13,7 +13,7 @@
 }
 
 .logo {
-  color: #fff
+  color: #fff;
 }
 
 .spacer {
