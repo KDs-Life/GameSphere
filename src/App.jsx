@@ -13,11 +13,11 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" exact component={LandingPage} />
-        <Route path="/Login" component={LogIn} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/chat" component={Chat} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/login" element={<LogIn />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/chat" element={<Chat />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>
