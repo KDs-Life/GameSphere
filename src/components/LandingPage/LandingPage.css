@@ -1,0 +1,27 @@
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.top-box,
+.mid-box,
+.bottom-box {
+  width: 100%;
+  /* max-width: 800px; */
+  margin-bottom: 30px;
+}
+
+.top-img,
+.mid-img,
+.bottom-img {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add additional styling as needed */
