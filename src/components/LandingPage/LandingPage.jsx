@@ -23,6 +23,7 @@ function LandingPage() {
           </p>
           <div className="top-img">
             <img src="https://placehold.co/600x400" alt="" />
+            <button>More</button>
           </div>
         </div>
         <div className="mid-box">
